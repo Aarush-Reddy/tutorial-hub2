@@ -1,0 +1,52 @@
+.menu {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 10px 20px; /* Add padding for better spacing */
+}
+
+.body-container {
+  padding: 20px; /* Add padding to the container holding the grid elements */
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  flex-wrap: wrap;
+  gap: 20px; /* Add gap between grid items */
+}
+
+.languages {
+  width: 200px;
+  text-align: center;
+  padding: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.grid img {
+  max-width: 100%;
+  height: auto; 
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease-in-out;
+}
+
+.origami:hover {
+  transform: scale(1.05);
+}
